@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+button{
+    padding: 0.5rem 1.5rem;
+    border: 5px solid white;
+    color:white;
+    background-color: green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.number{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeIn is ease-in-out;
+
+}
+keyframe fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
